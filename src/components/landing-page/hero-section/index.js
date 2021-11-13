@@ -1,3 +1,3 @@
 export function HeroSection() {
-  return <div>HeroSection</div>
+  return <div className="bg-indigo-400">HeroSection</div>
 }

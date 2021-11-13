@@ -1,3 +1,3 @@
 export function Brands() {
-  return <div>Brands</div>
+  return <div className="">Brands</div>
 }

@@ -1,10 +1,12 @@
-import Image from 'next/image'
+import BrasvidLogo from '../../assets/logo.svg'
 
 export function Footer() {
   return (
-    <div className="bg-pink-300 flex flex-col items-center">
-      <Image src="/logo.svg" alt="logo" height={30} width={30} />
-      <span>Brasvid</span>
+    <div className="bg-primary flex flex-col items-center py-12 space-y-2">
+      <BrasvidLogo className="w-5 h-5" />
+      <span className="text-white font-extrabold text-xl tracking-wide leading-none">
+        Brasvid
+      </span>
     </div>
   )
 }

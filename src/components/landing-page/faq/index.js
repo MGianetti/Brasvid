@@ -1,3 +1,3 @@
 export function Faq() {
-  return <div>Faq</div>
+  return <div className="">Faq</div>
 }
