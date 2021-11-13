@@ -25,6 +25,8 @@ body,
   justify-content: flex-start;
   align-items: stretch;
   overflow-x: hidden;
+  /* REMOVE bg */
+  background-color: rgba(0, 0, 0, 0.035);
 }
 
 #nprogress {
@@ -38,4 +40,8 @@ body,
 
 #nprogress .bar {
   background: var(--clr-primary);
+}
+
+.awssld__content {
+  background-color: transparent !important;
 }

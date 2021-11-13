@@ -8,15 +8,12 @@ export function OurServices() {
         <p className="text-4xl font-extrabold tracking-wider mb-2 text-primary">
           Nossos serviços
         </p>
-        <AwesomeSlider className="mt-6 mb-12">
+        <AwesomeSlider className="mt-6 mb-12" bullets={false}>
           <div>
-            <Image src="/glass.png" alt="glass" height={286} layout="fill" />
+            <Image src="/banner.png" alt="glass" height="286px" width="477px" />
           </div>
           <div>
-            <Image src="/glass.png" alt="glass" height={286} layout="fill" />
-          </div>
-          <div>
-            <Image src="/glass.png" alt="glass" height={286} layout="fill" />
+            <Image src="/glass.png" alt="glass" height="286px" width="477px" />
           </div>
         </AwesomeSlider>
         <p className="mb-4 text-primary-light tracking-wider">

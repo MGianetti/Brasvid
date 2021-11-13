@@ -1,6 +1,8 @@
+import Image from 'next/image'
+
 export function HeroSection() {
   return (
-    <div className="flex flex-col items-start">
+    <div className="flex flex-col items-start pt-24 relative w-full bg-red-300">
       <p className="text-4xl font-extrabold tracking-wider mb-2 text-white">
         Brasvid
       </p>
@@ -11,6 +13,14 @@ export function HeroSection() {
       <button className="rounded-xl flex items-center justify-center px-6 py-1 text-center transition duration-150 focus:outline-none text-lg disabled:cursor-not-allowed uppercase font-bold text-white border-2 border-white">
         fale conosco
       </button>
+      {/* <Image
+        aria-hidden="true"
+        src="/glass.png"
+        alt=""
+        width="477px"
+        height="286px"
+        className="absolute top-0"
+      /> */}
     </div>
   )
 }

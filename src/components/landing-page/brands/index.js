@@ -1,35 +1,45 @@
-function BrandContainer(props) {
-  const { children } = props
+import Image from 'next/image'
 
-  return (
-    <div className="w-full h-20 bg-red-50 border-red-500 border">
-      {children}
-    </div>
-  )
-}
+const srcs = [
+  '/audi.png',
+  '/bmw.png',
+  '/chevrolet.png',
+  '/fiat.png',
+  '/ford.png',
+  '/honda.png',
+  '/hyundai.png',
+  '/jac.png',
+  '/mercedes.png',
+  '/mitsubishi.png',
+  '/nissan.png',
+  '/renault.png',
+  null,
+  '/toyota.png',
+  '/volks.png',
+]
 
 export function Brands() {
   return (
-    <div className="flex flex-col">
-      <p className="text-4xl font-extrabold tracking-wider mb-4 text-primary text-center">
+    <div className="flex flex-col pb-16">
+      <p className="text-4xl font-extrabold tracking-wider mb-8 text-primary text-center">
         Marcas
       </p>
-      <div className="grid grid-cols-4 gap-4">
-        <BrandContainer />
-        <BrandContainer />
-        <BrandContainer />
-        <BrandContainer />
-        <BrandContainer />
-        <BrandContainer />
-        <BrandContainer />
-        <BrandContainer />
-        <BrandContainer />
-        <BrandContainer />
-        <BrandContainer />
-        <BrandContainer />
-        <div />
-        <BrandContainer />
-        <BrandContainer />
+      <div className="grid grid-cols-4 gap-8">
+        {srcs.map((src, index) =>
+          src ? (
+            <Image
+              key={`brand-${index}`}
+              src={src}
+              alt={src}
+              width="100%"
+              height="25%"
+              layout="responsive"
+              objectFit="contain"
+            />
+          ) : (
+            <div />
+          ),
+        )}
       </div>
     </div>
   )

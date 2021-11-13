@@ -13,7 +13,7 @@ export function MainLayout(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      <main className="w-full max-w-4xl mx-auto bg-gray-300">{children}</main>
+      <main className="w-full max-w-4xl mx-auto">{children}</main>
       <Footer />
     </>
   )
