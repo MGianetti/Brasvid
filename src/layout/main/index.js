@@ -12,6 +12,7 @@ export function MainLayout(props) {
         <meta name="description" content="Vidros curvos" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className="absolute -z-1 bg-hero-pattern left-0 top-0 bottom-0 w-full" />
       <NavBar />
       <main className="w-full max-w-4xl mx-auto">{children}</main>
       <Footer />

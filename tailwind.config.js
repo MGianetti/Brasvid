@@ -15,7 +15,24 @@ module.exports = {
         primary: {
           DEFAULT: 'var(--clr-primary)',
           light: 'var(--clr-primary-light)',
+          dimmed: 'var(--clr-primary-dimmed)',
         },
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/shape-hero-section.svg')",
+      },
+      zIndex: {
+        '-1': '-1',
+        1: '1',
+        2: '2',
+        3: '3',
+        4: '4',
+        5: '5',
+      },
+    },
+    variants: {
+      extend: {
+        backgroundOpacity: ['hover'],
       },
     },
   },

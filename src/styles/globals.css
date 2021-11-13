@@ -12,11 +12,13 @@
 :root {
   --clr-primary: #325570;
   --clr-primary-light: #6a97b2;
+  --clr-primary-dimmed: #aac4d9;
 }
 
 html,
 body,
 #__next {
+  position: relative;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -25,8 +27,6 @@ body,
   justify-content: flex-start;
   align-items: stretch;
   overflow-x: hidden;
-  /* REMOVE bg */
-  background-color: rgba(0, 0, 0, 0.035);
 }
 
 #nprogress {
