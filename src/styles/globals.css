@@ -24,6 +24,7 @@ body,
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: stretch;
+  overflow-x: hidden;
 }
 
 #nprogress {
