@@ -20,7 +20,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero-pattern': "url('/shape-hero-section.svg')",
-        'hb-pattern': "url('/hb.svg')",
+        'hb-icon': "url('/hambuguer.svg')",
       },
       zIndex: {
         '-1': '-1',

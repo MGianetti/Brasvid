@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export function HeroSection() {
   return (
-    <div className="flex flex-col justify-center sm:items-start relative w-full pt-24 pb-80">
+    <div className="flex flex-col items-center sm:items-start relative w-full pt-24 pb-80">
       <p className="text-4xl font-extrabold tracking-wider mb-2 text-white flex justify-center sm:inline">
         Brasvid
       </p>
@@ -10,7 +10,7 @@ export function HeroSection() {
         Vestibulum sollicitudin ipsum id mi tempus, sed semper tortor eleifend.
         Donec mollis id arcu quis euismod.
       </p>
-      <button className="rounded-xl flex items-center justify-center px-6 py-1 text-center transition duration-150 focus:outline-none text-lg disabled:cursor-not-allowed uppercase font-bold text-white border-2 border-white hover:bg-white hover:bg-opacity-10">
+      <button className="rounded-xl items-center justify-center px-6 py-1 text-center transition duration-150 focus:outline-none text-lg disabled:cursor-not-allowed uppercase font-bold text-white border-2 border-white hover:bg-white hover:bg-opacity-10">
         fale conosco
       </button>
       <div className="absolute flex w-full z-50 justify-center top-64">

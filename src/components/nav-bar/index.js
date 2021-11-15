@@ -1,4 +1,5 @@
 import BrasvidLogo from '../../assets/logo.svg'
+import Hambuguer from '../../assets/hamburguer.svg'
 
 export function NavBar() {
   return (
@@ -12,7 +13,7 @@ export function NavBar() {
           <span>Missão</span>
           <span>Sobre a empresa</span>
         </div>
-        <div className="block sm:hidden w-8 h-8 mr-8 bg-white">hb</div>
+        <Hambuguer className="sm:hidden w-16" />
       </div>
     </div>
   )
