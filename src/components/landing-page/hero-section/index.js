@@ -13,43 +13,46 @@ export function HeroSection() {
       <button className="rounded-xl items-center justify-center px-6 py-1 text-center transition duration-150 focus:outline-none text-lg disabled:cursor-not-allowed uppercase font-bold text-white border-2 border-white hover:bg-white hover:bg-opacity-10">
         fale conosco
       </button>
-      <div className="absolute flex w-full z-50 justify-center top-64">
+      <div className="absolute flex w-full z-50 -left-28 justify-center top-72">
         <Image
           aria-hidden="true"
           src="/glass.png"
           alt=""
           width="477px"
           height="286px"
-          className="scale-50 sm:scale-75 md:scale-75 lg:scale-75"
+          className="scale-50 md:scale-65 lg:scale-75"
         />
       </div>
-      {/* <div className="absolute bottom-32 right-16 z-40">
+      <div className="justify-center absolute flex w-full top-52 -right-28 lg:top-32 lg:left-60">
         <Image
           aria-hidden="true"
           src="/glass.png"
           alt=""
           width="477px"
           height="286px"
+          className="scale-50 md:scale-65 lg:scale-75"
         />
       </div>
-      <div className="absolute bottom-44 right-0 z-30">
+      <div className="justify-center absolute flex w-full top-56 -right-16 lg:top-40 lg:left-40">
         <Image
           aria-hidden="true"
           src="/glass.png"
           alt=""
           width="477px"
           height="286px"
+          className="scale-50 md:scale-65 lg:scale-75"
         />
       </div>
-      <div className="absolute bottom-52 -right-16 z-20">
+      <div className="justify-center absolute flex w-full top-60 lg:top-48 lg:left-20">
         <Image
           aria-hidden="true"
           src="/glass.png"
           alt=""
           width="477px"
           height="286px"
+          className="scale-50 md:scale-65 lg:scale-75"
         />
-      </div> */}
+      </div>
     </div>
   )
 }

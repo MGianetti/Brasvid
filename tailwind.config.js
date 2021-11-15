@@ -30,6 +30,9 @@ module.exports = {
         4: '4',
         5: '5',
       },
+      scale: {
+        65: '0.65',
+      },
     },
     variants: {
       extend: {
