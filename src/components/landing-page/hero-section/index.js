@@ -13,24 +13,23 @@ export function HeroSection() {
       <button className="rounded-xl flex items-center justify-center px-6 py-1 text-center transition duration-150 focus:outline-none text-lg disabled:cursor-not-allowed uppercase font-bold text-white border-2 border-white hover:bg-white hover:bg-opacity-10">
         fale conosco
       </button>
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-50">
+      <div className="absolute flex w-full z-50 justify-center top-52">
         <Image
           aria-hidden="true"
           src="/glass.png"
           alt=""
           width="477px"
           height="286px"
-          className="scale-75"
+          className="scale-50 sm:scale-75 md:scale-75 lg:scale-75"
         />
       </div>
-      <div className="absolute bottom-32 right-16 z-40">
+      {/* <div className="absolute bottom-32 right-16 z-40">
         <Image
           aria-hidden="true"
           src="/glass.png"
           alt=""
           width="477px"
           height="286px"
-          className="scale-75"
         />
       </div>
       <div className="absolute bottom-44 right-0 z-30">
@@ -40,7 +39,6 @@ export function HeroSection() {
           alt=""
           width="477px"
           height="286px"
-          className="scale-75"
         />
       </div>
       <div className="absolute bottom-52 -right-16 z-20">
@@ -50,9 +48,8 @@ export function HeroSection() {
           alt=""
           width="477px"
           height="286px"
-          className="scale-75"
         />
-      </div>
+      </div> */}
     </div>
   )
 }
